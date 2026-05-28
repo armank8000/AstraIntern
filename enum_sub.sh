@@ -2,7 +2,7 @@
 
 Target=$1
 Timestamp=$(date +%Y%m%d_%H%M%S)
-Output_Dir="sub_${TIMESTAMP}.txt"
+Output_Dir="sub_${TARGET}${TIMESTAMP}.txt"
 
 echo "Target provided ${Target}"
 
